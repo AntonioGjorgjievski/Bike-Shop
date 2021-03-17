@@ -1,0 +1,125 @@
+body {
+  background-color: #e7e7e7;
+}
+
+/*use color:orange for the orange color*/
+/*use background-color: #d3d3d3; color: #5c5c5c; for the badges*/
+/*use color:grey for the social-share icons on hover*/
+.container {
+  background: white;
+}
+
+.nav-item .nav-link {
+  font-size: 14px;
+  color: #000 !important;
+}
+
+.nav-item .nav-link:hover {
+  color: orange !important;
+}
+
+.search i,
+.shop i {
+  font-size: 19px;
+}
+
+.bikes h1 {
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.card-body {
+  background: orange;
+}
+
+.card-title,
+.card-text,
+.brand a,
+.show-all a,
+.male-female a {
+  color: #000;
+}
+
+.brand a:hover,
+.show-all a:hover,
+.male-female a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.brand a .badge,
+.show-all a .badge,
+.male-female a .badge {
+  color: #000;
+  font-weight: bold;
+  background: #d3d3d3;
+  line-height: 17px;
+  width: 35px;
+  font-size: 11px;
+}
+
+.brand a:hover .badge,
+.show-all a:hover .badge,
+.male-female a:hover .badge,
+.male-female a .badge:hover {
+  background: orange;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card-body {
+  z-index: 2
+}
+
+.card:hover {
+  text-decoration: none;
+}
+
+.card:hover{
+  border: 1px solid orange;
+  transition: .5s;
+}
+
+.card img {
+  height: 193px;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.active-filter p:nth-child(1) {
+  font-weight: bold;
+  color: orange;
+}
+
+.active-filter p:nth-child(2) {
+  background: orange;
+}
+
+.social-icon {
+  background: orange;
+  padding: 8px 12px;
+}
+
+.social-icon:hover {
+  background: grey;
+}
+
+.social-icon i {
+  color: #fff;
+}
+
+.list-unstyled li a {
+  color: #000;
+}
+
+.list-unstyled li a:hover,
+.search i:hover,
+.shop i:hover  {
+  text-decoration: none;
+  color: orange;
+}
